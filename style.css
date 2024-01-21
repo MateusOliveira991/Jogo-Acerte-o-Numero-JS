@@ -8,39 +8,53 @@ body {
     align-items: center;
     justify-content: flex-start; 
     height: 100vh;
+    background-image: url('./img/jogofundo.jpg'); 
+    background-size: cover; 
+    background-position: center; 
 }
+
 
 h1 {
     text-align: center;
-    color: #333;
+    color: #f1f8f0;
 }
 
 input {
     padding: 10px;
     margin: 10px;
-    font-size: 16px;
-    width: 80%;
+    font-size: 26px;
+    width: 30%;
     box-sizing: border-box;
+    border-radius: 20px;
 }
 
 button {
     padding: 10px;
     margin: 10px;
     font-size: 16px;
-    width: 80%;
-    background-color: #2d672f;
+    width: 30%;
+    background-color: #de1717;
     color: white;
     border: none;
-    border-radius: 5px;
+    border-radius: 15px;
     cursor: pointer;
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color: #052952;
 }
 
 #resposta {
     text-align: center;
     font-size: 18px;
-    color: #333;
+    color: #fff;
+}
+
+footer{
+    color: #fff;
+}
+
+a{
+    color: #fff;
+
 }

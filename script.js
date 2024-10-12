@@ -16,12 +16,12 @@ function conferir() {
 
     document.getElementById(
       "resposta"
-    ).innerHTML = `O número ${numinput} é maior que o número secreto`;
+    ).innerHTML = `Não é o número ${numinput} Tente um número MENOR`;
   } else {
     contador++;
     document.getElementById(
       "resposta"
-    ).innerHTML = `O número ${numinput} é menor que o número secreto`;
+    ).innerHTML = `Não é o número ${numinput} Tente um número MAIOR`;
   }
   excluirCampo();
 }
